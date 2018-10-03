@@ -1,0 +1,15 @@
+{
+  "name": "Youtube Focus",
+  "version": "1.0",
+  "description": "Removes distracting content from the window",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_icon": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/"],
+      "js": ["script.js"]
+    }
+  ]
+}
