@@ -11,5 +11,10 @@
       "matches": ["https://www.nytimes.com/"],
       "js": ["script.js"]
     }
-  ]
+  ],
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": ["*.wav", "*.png"]
 }
